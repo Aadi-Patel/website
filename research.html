@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Aadi Patel</title>
+    <meta name="description" content="Research by Aadi Patel: radio astronomy of black hole X-ray binaries with ALMA, theoretical physics, quantum computing and computer vision.">
+    <meta name="theme-color" content="#030914">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <canvas id="bg-particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+        <div class="site-header__inner">
+            <a href="index.html" class="brand" aria-label="Aadi Patel, home">Aadi Patel<span>.</span></a>
+            <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+            </button>
+            <nav class="nav" id="site-nav" aria-label="Primary">
+                <a href="research.html" aria-current="page">Research</a>
+                <a href="leadership.html">Teaching &amp; Leadership</a>
+                <a href="volunteering.html">Outreach</a>
+                <a href="about.html">About</a>
+                <a href="about.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="container page-hero">
+            <h1 class="display">Research</h1>
+            <p class="lede">From radio interferometry of accreting black holes to theoretical physics, quantum computing and computer vision: four research positions at the University of Lethbridge since 2023.</p>
+        </section>
+        <section class="container section">
+            <div class="section-head reveal">
+                <h2>Research positions</h2>
+                <span class="count">04</span>
+            </div>
+                <article class="entry reveal">
+                    <span class="entry__date">Jan 2026 &ndash; Present</span>
+                    <div>
+                    <span class="entry__field">Astrophysics</span>
+                    <h3 class="entry__title">Accretion and outflows in black hole X-ray binaries</h3>
+                    <p class="entry__meta">Student Research Assistant &middot; Supervisor: <a href="https://tetarenk.github.io/group.html" target="_blank" rel="noopener">Dr. Alex Tetarenko</a></p>
+                    <div class="entry__body">
+                        <p>When a massive star in a binary collapses into a black hole, it can begin pulling material from its companion. That gas spirals inward through a hot accretion disk that shines in X-rays, while some of it is launched outward in jets seen at radio wavelengths. How those jets form and how much energy they carry are still open questions.</p>
+                        <p>I work with 45 measurement sets from the Atacama Large Millimeter/submillimeter Array (ALMA), processed through automated Python pipelines. Using radio interferometry techniques (manual calibration, data flagging and continuum subtraction), I isolate faint molecular emission lines from atmospheric artifacts. In CASA I apply spatial masks and run iterative deconvolution (<em>tclean</em>) to build 3D spectral cubes, then analyse them in CARTA with moment maps to track target emission and verify non-detections.</p>
+                        <p>I also maintain a local database of more than 100 ALMA observations, which makes it much faster to cross-reference spectral windows, frequencies and target fields for multi-epoch analysis.</p>
+                    </div>
+                    <ul class="tags"><li>Radio interferometry</li><li>ALMA</li><li>CASA</li><li>CARTA</li><li>Python</li></ul>
+                    </div>
+                    <a href="https://tetarenk.github.io/group.html" target="_blank" rel="noopener" class="tilt-logo entry__logo" aria-label="Tetarenko research group">
+                        <img src="images/LUX.png" alt="Tetarenko research group" loading="lazy">
+                        <span class="tilt-shine"></span>
+                    </a>
+                </article>
+                <article class="entry reveal">
+                    <span class="entry__date">Jan 2026 &ndash; Apr 2026</span>
+                    <div>
+                    <span class="entry__field">AI &amp; Machine Learning</span>
+                    <h3 class="entry__title">Computer vision for behavioural neuroscience</h3>
+                    <p class="entry__meta">Student Research Assistant &middot; Supervisor: Dr. Hardeep Ryait</p>
+                    <div class="entry__body">
+                        <p>Developed a Python computer-vision pipeline using YOLO and OpenCV to automate behavioural tracking and spatial analysis of lab mice in real-time video. Engineered custom polygon zone mapping and identity logic across more than 1,000 frames, accelerated with Metal Performance Shaders (MPS).</p>
+                        <p>Built an interactive tool for video selection and frame-by-frame annotation to speed up dataset development, with ground-truth labels exported simultaneously in COCO JSON, YOLO and Pascal VOC formats to keep the data consistent for interdisciplinary neuroscience research.</p>
+                    </div>
+                    <ul class="tags"><li>Python</li><li>YOLO</li><li>OpenCV</li><li>Dataset annotation</li></ul>
+                    </div>
+                    
+                </article>
+                <article class="entry reveal">
+                    <span class="entry__date">May 2023 &ndash; Aug 2025</span>
+                    <div>
+                    <span class="entry__field">Theoretical Physics</span>
+                    <h3 class="entry__title">Black holes, relativity and neutrino phenomenology</h3>
+                    <p class="entry__meta">Research Assistant, Theoretical Physics Group &middot; Supervisor: Dr. Saurya Das</p>
+                    <div class="entry__body">
+                        <p>Took part in group seminars on quantum mechanics and cosmology. Carried out directed studies of stellar evolution, gravitational collapse and black hole dynamics, followed by literature reviews of the geometric formalism of special relativity (the Minkowski metric) and the classic experimental tests of general relativity, later extending to a foundational study of quantum gravity candidates.</p>
+                        <p>Assisted with analysis of how the Generalized Uncertainty Principle induces observable dips in ultrahigh-energy neutrino spectra, reviewed evidence for sterile neutrino signatures, and analysed how matter-enhanced oscillations (the MSW effect) influence neutrino survival probabilities in dense environments.</p>
+                    </div>
+                    <ul class="tags"><li>General relativity</li><li>Cosmology</li><li>Quantum gravity</li><li>Neutrino physics</li></ul>
+                    </div>
+                    
+                </article>
+                <article class="entry reveal">
+                    <span class="entry__date">Summers 2023 &amp; 2024</span>
+                    <div>
+                    <span class="entry__field">Quantum Computing</span>
+                    <h3 class="entry__title">Quantum algorithms and circuit simulation</h3>
+                    <p class="entry__meta">Student Research Assistant &middot; Supervisor: Dr. Daya Gaur</p>
+                    <div class="entry__body">
+                        <p>Studied quantum information fundamentals from Nielsen &amp; Chuang, deriving the matrix representations of single- and multi-qubit gates by hand. Implemented and simulated key algorithms, including Deutsch&ndash;Jozsa, Shor&rsquo;s and HHL, using Qiskit and IBM cloud quantum processors.</p>
+                        <p>Produced a comprehensive set of textbook solutions and working circuits demonstrating quantum teleportation and arithmetic operations.</p>
+                    </div>
+                    <ul class="tags"><li>Qiskit</li><li>IBM Quantum</li><li>Python</li><li>Linear algebra</li></ul>
+                    </div>
+                    
+                </article>
+        </section>
+        <section class="container section" id="projects">
+            <div class="section-head reveal">
+                <h2>Projects</h2>
+            </div>
+                <article class="entry reveal">
+                    <span class="entry__date">Nov 2025 &ndash; Dec 2025</span>
+                    <div>
+                    <span class="entry__field">Instrumentation</span>
+                    <h3 class="entry__title">Modular star-tracking prototype</h3>
+                    <p class="entry__meta">Independent project</p>
+                    <div class="entry__body">
+                        <p>Designed and built a low-cost, 3D-printable star-tracking mount to make astrophotography accessible to younger amateur astronomers who can&rsquo;t afford commercial tracking equipment. Two stepper motors, driven by an Arduino microcontroller, provide the mount&rsquo;s tracking motion.</p>
+                    </div>
+                    <ul class="tags"><li>Arduino</li><li>Stepper motors</li><li>3D printing</li><li>CAD</li></ul>
+                    </div>
+                    
+                </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <span>&copy; <span data-year>2026</span> Aadi Patel</span>
+            <div class="site-footer__links">
+                <a class="text-link" href="mailto:aadi.patel@uleth.ca">aadi.patel@uleth.ca</a>
+                <a class="text-link" href="https://www.linkedin.com/in/aadidpatel/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/site.js"></script>
+</body>
+</html>
