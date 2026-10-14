@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Aadi Patel</title>
-    <meta name="description" content="About Aadi Patel, a fourth-year physics student at the University of Lethbridge with interests in astrophysics, space science and medical physics.">
+    <meta name="description" content="About Aadi Patel, a fifth-year physics student at the University of Lethbridge interested in medical physics, image reconstruction and radio astronomy.">
     <meta name="theme-color" content="#030914">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -131,6 +131,7 @@
         }
         .col ul { list-style: none; margin: 0; padding: 0; }
         .col li { padding: 6px 0; font-size: 15px; color: rgba(229, 212, 181, 0.82); }
+        .col li em.plain { font-style: italic; font-size: inherit; letter-spacing: 0; color: inherit; margin: 0; text-transform: none; }
         .col li em { font-style: normal; font-size: 11px; letter-spacing: 0.1em; color: var(--gold-strong); margin-left: 6px; text-transform: uppercase; }
         @media (max-width: 820px) { .cols { grid-template-columns: 1fr; } }
 
@@ -176,15 +177,18 @@
                 <span class="eyebrow">About</span>
                 <h1 class="display">Aadi Patel</h1>
                 <div class="bio__text">
-                    <p>I&rsquo;m a fourth-year physics student at the University of Lethbridge, drawn to the questions that sit where astronomy, physics and space meet.</p>
+                    <p>I&rsquo;m a fifth-year physics student at the University of Lethbridge, drawn to medical physics, image reconstruction and radio astronomy.</p>
                     <p>My current research is in radio astronomy. Working with Dr. Alex Tetarenko, I calibrate and image ALMA observations of black hole X-ray binaries to understand how these systems accrete matter and launch outflows. Before that I spent time in the Theoretical Physics Group with Dr. Saurya Das studying black hole dynamics, general relativity and neutrino phenomenology, worked on quantum algorithms with Dr. Daya Gaur, and built a computer-vision pipeline for neuroscience research with Dr. Hardeep Ryait.</p>
-                    <p>I&rsquo;m also interested in medical physics, a direction rooted in four years volunteering with Alberta Health Services at Chinook Regional Hospital. Outside of research I teach as a Calculus I teaching assistant and tutor, founded the Physics, Astronomy, and Mathematics Association, and spend clear nights observing with the Lethbridge Astronomy Society.</p>
+                    <p>The thread running through that work is turning incomplete measurements into clear images, which is what draws me to medical physics, particularly imaging and radiation therapy. That interest is rooted in four years volunteering with Alberta Health Services at Chinook Regional Hospital.</p>
+                    <p>Outside of research I lead tutorials for ASTR 2020 Modern Astronomy and support Calculus I as a teaching assistant. I founded the Physics, Astronomy, and Mathematics Association, co-founded the Agility Club, and spend clear nights observing with the Lethbridge Astronomy Society.</p>
                 </div>
                 <dl class="facts">
                     <div><dt>Degree</dt><dd>B.Sc. Physics</dd></div>
                     <div><dt>Institution</dt><dd>University of Lethbridge</dd></div>
                     <div><dt>Program</dt><dd>Aug 2022 &ndash; Apr 2027</dd></div>
-                    <div><dt>Standing</dt><dd>Fourth year</dd></div>
+                    <div><dt>Research interests</dt><dd>Medical physics, image reconstruction, radio astronomy</dd></div>
+                    <div><dt>Languages</dt><dd>English, Gujarati, Hindi</dd></div>
+                    <div><dt>Standing</dt><dd>Fifth year</dd></div>
                 </dl>
             </div>
         </section>
@@ -195,8 +199,9 @@
             <ul class="awards reveal">
                 <li><span><strong>EBH Award</strong><span class="amt">1,600 CAD</span></span><time>Aug 2026</time></li>
                 <li><span><strong>Finalist Candidate, NRC Herzberg Moving Object Detection Specialist</strong></span><time>Feb 2026</time></li>
-                <li><span><strong>Air Cadet League of Canada Graduation Certificate</strong></span><time>June 2023</time></li>
-                <li><span><strong>Royal Canadian Legion Cadet Medal of Excellence</strong></span><time>June 2023</time></li>
+                <li><span><strong>Air Cadet League of Canada Graduation Certificate</strong></span><time>Jun 2023</time></li>
+                <li><span><strong>Royal Canadian Legion Cadet Medal of Excellence</strong></span><time>Jun 2023</time></li>
+                <li><span><strong>Promoted to Warrant Officer 1st Class, the highest cadet rank</strong></span><time>May 2023</time></li>
                 <li><span><strong>Board of Governors Scholarship</strong><span class="amt">1,000 CAD</span></span><time>Dec 2022</time></li>
                 <li><span><strong>Alexander Rutherford Scholarship</strong><span class="amt">2,500 CAD</span></span><time>Sept 2022</time></li>
                 <li><span><strong>Air Cadet Service Medal, two bars and two rosettes</strong></span><time>May 2020</time></li>
@@ -207,9 +212,12 @@
                 <h2>Technical skills</h2>
             </div>
             <div class="cols reveal">
-                <div class="col"><h3>Programming</h3><ul><li>Python (Pandas, Matplotlib, Qiskit, OpenCV, YOLO)</li><li>C++</li><li>Git &amp; GitHub</li><li>LaTeX</li><li>Linux</li></ul></div>
-                <div class="col"><h3>Astronomy &amp; data</h3><ul><li>CASA</li><li>CARTA</li><li>Radio interferometric calibration</li><li>Flagging and imaging</li><li>Spectral cube analysis</li></ul></div>
+                <div class="col"><h3>Programming</h3><ul><li>Python</li><li>C++</li><li>Git &amp; GitHub</li><li>LaTeX</li><li>Scientific Python: Pandas, Matplotlib, Qiskit</li></ul></div>
+                <div class="col"><h3>Radio astronomy</h3><ul><li>CASA: calibration, flagging, continuum subtraction, <em class="plain">tclean</em> deconvolution</li><li>CARTA: moment maps, spectral cube analysis</li><li>ALMA data reduction</li></ul></div>
+                <div class="col"><h3>Image processing &amp; ML</h3><ul><li>OpenCV</li><li>YOLO</li><li>Dataset annotation (COCO, YOLO, Pascal VOC)</li><li>GPU acceleration (Apple MPS)</li></ul></div>
+                <div class="col"><h3>Quantum computing</h3><ul><li>Qiskit</li><li>IBM Quantum cloud processors</li></ul></div>
                 <div class="col"><h3>Hardware &amp; fabrication</h3><ul><li>Arduino microcontrollers</li><li>Stepper motor control</li><li>Circuit integration</li><li>3D printing (Prusa FDM &amp; XL)</li><li>CAD modelling</li></ul></div>
+                <div class="col"><h3>Lab, safety &amp; languages</h3><ul><li>WHMIS certified</li><li>Electronics lab experience</li><li>English (native)</li><li>Gujarati (native)</li><li>Hindi (passive proficiency)</li></ul></div>
             </div>
         </section>
         <section class="container section">
@@ -217,9 +225,9 @@
                 <h2>Coursework</h2>
             </div>
             <div class="cols reveal">
-                <div class="col"><h3>Physics</h3><ul><li>Introduction to Physics I, II, III</li><li>Waves, Optics, and Sound</li><li>Introduction to Experimental Physics</li><li>Mathematical Physics</li><li>Quantum Mechanics I, II</li><li>Theoretical Methods of Physics</li><li>Introduction to Quantum Computing</li><li>Contemporary Physics</li><li>Digital Electronics</li><li>Electricity &amp; Magnetism</li><li>Classical Mechanics</li><li>Advanced Electromagnetic Interactions</li><li>Advanced Classical Mechanics</li><li>Independent Study (PHYS 4990)</li><li>Thermal &amp; Statistical Mechanics <em>Upcoming</em></li><li>Intermediate Experimental Physics <em>Upcoming</em></li></ul></div>
+                <div class="col"><h3>Physics</h3><ul><li>Introduction to Physics I, II, III</li><li>Waves, Optics, and Sound</li><li>Introduction to Cosmology</li><li>Introduction to Experimental Physics</li><li>Mathematical Physics</li><li>Quantum Mechanics I, II</li><li>Theoretical Methods of Physics</li><li>Introduction to Quantum Computing</li><li>Contemporary Physics</li><li>Digital Electronics</li><li>Electricity &amp; Magnetism</li><li>Classical Mechanics</li><li>Advanced Electromagnetic Interactions</li><li>Advanced Classical Mechanics</li><li>Astrophysical Emission Processes (Independent Study) <em>Current</em></li><li>Thermal &amp; Statistical Mechanics <em>Current</em></li><li>Intermediate Experimental Physics <em>Current</em></li></ul></div>
                 <div class="col"><h3>Mathematics</h3><ul><li>Calculus I</li><li>Accelerated Calculus II, III</li><li>Elementary Linear Algebra</li><li>Mathematical Proofs &amp; Concepts</li></ul></div>
-                <div class="col"><h3>Other</h3><ul><li>Introduction to Cosmology</li><li>Introduction to Programming (C++)</li><li>Philosophy of Science</li><li>Introduction to Philosophy</li><li>Developing Media for Children</li><li>Early Career Success</li></ul></div>
+                <div class="col"><h3>Other</h3><ul><li>Introduction to Programming (C++)</li><li>Introduction to Philosophy</li><li>Philosophy of Science</li><li>Developing Media for Children</li><li>Early Career Success</li></ul></div>
             </div>
         </section>
         <section class="container section" id="contact">
